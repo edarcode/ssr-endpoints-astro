@@ -6,7 +6,7 @@ const libraryCollection = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
-      image: image(),
+      img: image(),
     }),
 });
 
